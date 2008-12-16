@@ -1,0 +1,5 @@
+* tests
+* compare to original source to make sure nothing is omitted
+* edge cases:
+  * Javascript newlines... preserve in case there are no semi-colons?
+  * pre, block, etc... preserve newlines too?
