@@ -3,3 +3,6 @@
 * edge cases:
   * Javascript newlines... preserve in case there are no semi-colons?
   * pre, block, etc... preserve newlines too?
+* test the after_filter
+* add a helper for Rack-based apps too
+* seems to break on html docs without an xml decl. or doctype?
