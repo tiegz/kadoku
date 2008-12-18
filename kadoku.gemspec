@@ -20,5 +20,5 @@ Gem::Specification.new do |s|
     "test/kadoku_markup_test.rb"]
   s.rdoc_options = ["--main", "README"]
   s.extra_rdoc_files = ["README", "MIT-LICENSE", "TODO"]
-  s.add_dependency("hpricot", ["> 0.6.164"])
+#  s.add_dependency("hpricot", ["> 0.6.164"])
 end
