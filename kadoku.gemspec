@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name     = "kadoku"
-  s.version  = "0.1.1"
+  s.version  = "0.1.2"
   s.date     = "2008-12-17"
   s.summary  = "Uses Hpricot to clean up your unreadable HTML (ie ERB-generated html) [use with caution]"
   s.email    = "tieg.zaharia+kadoku@gmail.com"
@@ -13,9 +13,9 @@ Gem::Specification.new do |s|
     "Rakefile", 
     "README", 
     "TODO",
-    "lib/kadoku/kadoku.rb", 
-    "lib/kadoku/kadoku/markup.rb", 
-    "lib/kadoku/kadoku/markup_after_filter.rb"]
+    "lib/kadoku.rb", 
+    "lib/kadoku/markup.rb", 
+    "lib/kadoku/markup_after_filter.rb"]
   s.test_files = ["test/test_helper.rb",
     "test/kadoku_markup_test.rb"]
   s.rdoc_options = ["--main", "README"]
