@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name     = "kadoku"
-  s.version  = "0.1"
+  s.version  = "0.1.1"
   s.date     = "2008-12-17"
   s.summary  = "Uses Hpricot to clean up your unreadable HTML (ie ERB-generated html) [use with caution]"
   s.email    = "tieg.zaharia+kadoku@gmail.com"
