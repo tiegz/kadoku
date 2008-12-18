@@ -8,13 +8,7 @@ module Kadoku
   #
   #   class Application < ActionController::Base
   #     ... all your filters here
-  #     after_filter ERBApologist::Filters::ReadableHTML
-  #   end
-  #
-  # -or-
-  #   class Application < ActoinController::Base
-  #     ... all your filters here
-  #     cleanup_html
+  #     after_filter Kadoku::MarkupAfterFilter
   #   end
   class MarkupAfterFilter
     def self.filter(controller)
