@@ -1,0 +1,40 @@
+kadoku
+    by Tieg Zaharia
+    http://github.com/tiegz/kadoku
+ 
+== DESCRIPTION:
+ 
+Kadoku is a Ruby library that uses Hpricot to clean up your unreadable 
+HTML (ie ERB-generated html) [use with caution]. 
+
+== REQUIREMENTS:
+ 
+* Hpricot
+ 
+== INSTALL:
+ 
+  $ gem sources -a http://gems.github.com/ (you only need to do this once)
+  $ gem install tiegz-kadoku
+ 
+== USAGE:
+ 
+Require the gem...
+ 
+  require 'tiegz-kadoku'
+ 
+To load the doc,
+ 
+  a = open('my.site.com/index.html')
+  b = Kadoku::Markup.new(a)
+ 
+To get the cleaned-up markup,
+ 
+  b.to_clean_html
+ 
+To get the original html (rebuilt by Hpricot),
+
+  b.to_html
+
+== RELEVANT LINKS:
+
+* http://blog.solid1pxred.com/articles/2008/12/18/kadoku-the-markup-apologist
