@@ -3,6 +3,7 @@ kadoku
     http://github.com/tiegz/kadoku
  
 == DESCRIPTION:
+An Amazing project
  
 Kadoku is a Ruby library that uses Hpricot to clean up your unreadable 
 HTML (ie ERB-generated html) [use with caution]. 
